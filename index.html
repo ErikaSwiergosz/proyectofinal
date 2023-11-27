@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SpaceX</title>
+    <style>
+        .swiper-slide img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="destinos.html" onclick="showContent('destinos')">Destinos</a></li>
+                <li><a href="traje.html" onclick="showContent('traje')">Traje</a></li>
+                <li><a href="vehículos.html" onclick="showContent('vehículos')">Vehículos</a></li>
+                <li><a href="detalles.html" onclick="showContent('detalles')">Detalles del destino</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://www.spacex.com/humanspaceflight/assets/images/launch-crop.jpg" alt="Listen as the crew prepares for liftoff" style="width: 100%;">
+                <div>
+                    <h2>Launch</h2>
+                    <p>Listen as the crew prepares for liftoff</p>
+                    <audio controls>
+                        <source src="audio/Launch_Audio.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="https://www.spacex.com/humanspaceflight/assets/images/Splashdown_Photo_01.jpg" alt="Test your limits" style="width: 100%;">
+                <div>
+                    <h2>Splashdown</h2>
+                    <p>Listen to the crew prepare for landing</p>
+                    <audio controls>
+                        <source src="audio/Splashdown_Audio_01.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+            <div class="mySlides fade" >
+                <img src="https://www.spacex.com/humanspaceflight/assets/images/Training_01.jpg" alt="Watch crew prepare for launch day" style="width: 100%;">
+                <div>
+                    <h2>Training</h2>
+                    <p>Watch crew prepare for launch day</p>
+                </div>
+                
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</div>
+        <a class="next" onclick="plusSlides(1)">&#10095;</div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var swiper = new Swiper('.swiper-container', {
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
+           
+        });
+    </script>
+    
+</body>
+</html>

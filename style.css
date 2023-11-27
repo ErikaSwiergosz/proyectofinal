@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: auto;
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+}
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+    margin-left: 35%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation: fade 2s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from { opacity: 1 }
+    to { opacity: 1 }
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    text-align: center;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section.interactive-section {
+    text-align: center;
+    padding: 20px;
+}
+
+section.interactive-section img {
+    max-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+section.interactive-section img:hover {
+    transform: scale(1.1);
+}

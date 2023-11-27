@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="detalles.css">
+    <title>Detalles De Los Planetas</title>
+</head>
+<body class="tema-luna">
+    <div id="titulo">
+        <h1 class="margen_titulo">Tabla de Destinos</h1>
+    </div>
+    <div id="selector-destino" class="margen_selector">
+        <label for="destino">Selecciona un destino:</label>
+        <select id="destino">
+            <option value="marte">Marte</option>
+            <option value="luna">Luna</option>
+        </select>
+    </div>
+
+    <table id="tabla-detalles">
+        <thead>
+            <tr>
+                <th>Diámetro</th>
+                <th>Duración de los días</th>
+                <th>Gravedad</th>
+                <th>Distancia desde la Tierra</th>
+                <th>Edad del Planeta</th>
+                
+            </tr>
+        </thead>
+        <tbody id="tabla-body">
+            <!-- Los datos se llenarán dinámicamente mediante JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="detalles.js"></script>
+</body>
+</html>

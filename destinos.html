@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destinos.css">
+    <title>Destinos</title>
+</head>
+<body class="tema-luna">
+    <h1>Tabla de Destinos</h1>
+    
+    <div id="selector-destino">
+        <label for="destino">Selecciona un destino:</label>
+        <select id="destino">
+            <option value="marte">Marte</option>
+            <option value="luna">Luna</option>
+        </select>
+    </div>
+
+    <table id="tabla-destinos">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Distancia</th>
+                <th>Duración del Viaje</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-body">
+            <!-- Los datos se llenarán dinámicamente mediante JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="destinos.js"></script>
+</body>
+</html>

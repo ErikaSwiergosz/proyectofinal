@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.tema-marte {
+    background-color: #ff6347; /* Temática Marte - Ejemplo de color rojo anaranjado */
+    color: #fff; /* Color de texto en el tema Marte */
+    background-image: url('https://historiadelavida.editorialaces.com/wp-content/uploads/2021/06/por-que-marte-es-rojo-PORTADA.jpg');
+    background-size: cover;
+}
+
+.tema-luna {
+    background-color: #87CEEB; /* Temática Luna - Ejemplo de color azul claro */
+    color: #f8f2f2; /* Color de texto en el tema Luna */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/420px-Full_Moon_Luc_Viatour.jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+#selector-destino {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #acaaaa;
+}
+
+
+th {
+    background-color: #666363;
+    color: white;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Tema Luna */
+
+
+.tema-luna header {
+    background-color: transparent;
+}
+
+.tema-luna th {
+    background-color: #34495e;
+}
+
+.tema-luna tr:hover {
+    background-color: #2c3e50;
+}
+
+.tema-luna tr:nth-child(even) {
+    background-color: #34495e;
+}
+
+/* Tema Marte */
+
+
+.tema-marte header {
+    background-color: transparent;
+}
+
+.tema-marte th {
+    background-color: #e74c3c;
+}
+
+.tema-marte tr:hover {
+    background-color: #e67e22;
+}
+
+.tema-marte tr:nth-child(even) {
+    background-color: #e74c3c;
+}

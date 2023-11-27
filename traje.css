@@ -1,0 +1,67 @@
+body{
+    font-size: 20px;
+    color: whitesmoke;
+    background-image:url("https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+}
+#selector-partetraje {
+    font-size: 30px;
+    color: rgb(203, 197, 197);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:10px;
+}
+header {
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-shadow: 2px 2px 4px #206485;
+    font-size: 36px;
+    color: rgba(215, 213, 213, 0.644);
+  }
+/* Estilos generales para todas las partes del traje */
+.helmet img, .visor img, .elbow img, .knee img, .zippers img, .gloves img {
+    /* Estilos generales aquí */
+    width: 50%; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 50%;
+    display: block; /* Asegura que las imágenes no tengan espacios vacíos debajo */
+    margin: 0 auto; /* Centra las imágenes */
+}
+.img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: 700%; /* Hace que la altura se ajuste automáticamente */
+    margin: 20px auto 0; /* Margen superior de 20px, centrado horizontalmente */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #acaaaa;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+
+th {
+    background-color: #10062d;
+}
