@@ -112,3 +112,18 @@ tr:nth-child(even) {
     background-color: #e74c3c;
 }
 
+@media only screen and (max-width: 768px) {
+    .margen_titulo {
+        font-size: 24px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .selector-destino {
+        margin-left: 0;
+    }
+
+    table {
+        font-size: 16px;
+    }
+}

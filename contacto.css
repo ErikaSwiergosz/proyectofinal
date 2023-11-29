@@ -65,4 +65,8 @@ body {
     border-radius: 10px; 
     box-shadow: 0px 0px 10px #00a1e3; 
   }
-  
+  @media only screen and (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}

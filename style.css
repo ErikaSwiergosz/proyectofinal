@@ -14,12 +14,21 @@ header {
     text-align: center;
     font-size: 23px;
 }
+
 .slideshow-container {
     max-width: 800px;
     position: relative;
     margin-top: 20px;
     height: 300px;
     margin-left: 35%;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .slideshow-container {
+        max-width: 100%;
+        margin-left: 0;
+    }
 }
 
 .mySlides {
@@ -29,6 +38,8 @@ header {
 .fade {
     animation: fade 2s ease-in-out infinite;
 }
+
+
 
 @keyframes fade {
     from { opacity: 1 }
@@ -67,13 +78,13 @@ header img {
 
 nav ul {
     list-style: none;
+    text-align: center;
 }
 
 nav li {
-    display: inline;
-    margin-right: 20px;
+    display: block;
+    margin-bottom: 10px;
 }
-
 nav a {
     text-decoration: none;
     color: white;

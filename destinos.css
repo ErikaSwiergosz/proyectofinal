@@ -94,3 +94,17 @@ tr:nth-child(even) {
 .tema-marte tr:nth-child(even) {
     background-color: #e74c3c;
 }
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #selector-destino {
+        margin-bottom: 10px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}

@@ -50,3 +50,17 @@ img {
     margin: 10px auto; /* Centrar la imagen */
 }
 
+@media only screen and (min-width: 768px) {
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    iframe {
+        height: 515px;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+}
